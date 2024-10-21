@@ -1,5 +1,17 @@
+body, h1, h2, h3{
+    margin: 0;
+    padding: 0;
+}
+
 div{
     border: 1px solid red;
+}
+header{
+    border: 3px solid green;
+}
+
+section{
+    border: 3px dashed blue;
 }
 
 .page {
@@ -11,12 +23,17 @@ div{
     margin: 0 auto;
     /* выше для экранов больше 1600px отцентрировали весь контент */
     font-family: 'Helvetica Neue', Arial, sans-serif;
-    position: relative;
+
 }
 
 .logo{
     width: 228px;
     height: 32px;
+}
+
+.section{
+    margin-bottom: 100px;
+    width: 80%;
 }
 
 .logo__place_top-left{
@@ -29,6 +46,8 @@ div{
     height: 100vh;
     min-height: 600px;
     max-height: 756px;
+    position: relative;
+    margin-bottom: 100px;
     /* выше установили ограничения для секции */
 }
 
@@ -56,8 +75,9 @@ div{
     font-weight: normal;
 }
 
-.header__subtitle-link{
+.link{
     text-decoration: none;
+    color: #2f80ed;
 }
 
 .header__painting{
@@ -84,10 +104,57 @@ div{
     right: 0;
 }
 
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.description{
+    display: flex;
+}
+
+.two-columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.two-columns__brief {
+    width: 175px;
+}
+
+.two-columns__brief-text{
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: normal;
+}
+
 /* и элемента с модификатором вида ключ-значение */
+
 .table__cell_theme_dark {
     width: 200px;
     color: white;
     margin-right: 0;
     margin-top: 80px;
+}
+
+.two-columns__main-text {
+    min-width: 784px;
+    width: 80%;
+}
+
+.two-columns__paragraph {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+.two-columns__paragraph:last-of-type {
+    margin-bottom: 0;
+}
+
+.accent {
+    font-weight: 600;
 }
