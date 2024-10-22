@@ -1,16 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-/*div,h1,h2,h3,h4,h5,h6{
+/*div,h1,h2,h3,h4,h5,h6 {
     border: 1px solid red;
 }
-header{
+header {
     border: 3px solid green;
 }
 
-footer, section{
+footer, section {
     border: 3px dashed blue;
 }*/
 
@@ -25,22 +25,23 @@ footer, section{
     font-family: 'Helvetica Neue', Arial, sans-serif;
     background-color: #f2f2f2;
 }
-.dark-theme{
+
+.dark-theme {
     background-color: #1f1f1f;
     color: white;
 }
 
-.logo{
+.logo {
     width: 228px;
     height: 32px;
 }
 
-.section{
+.section {
     margin-bottom: 100px;
     display: flex;
 }
 
-.logo__place_top-left{
+.logo_place_header {
     position: absolute;
     top: 30px;
     left: 64px;
@@ -56,7 +57,7 @@ footer, section{
     /* выше установили ограничения для секции */
 }
 
-.header__title{
+.header__title {
     align-self: center;
     width: 730px;
     margin-left: 64px;
@@ -66,7 +67,7 @@ footer, section{
     z-index: 1;
 }
 
-.header__subtitle{
+.header__subtitle {
     width: 388px;
     position: absolute;
     bottom: 30px;
@@ -76,12 +77,12 @@ footer, section{
     font-weight: normal;
 }
 
-.link{
+.link {
     text-decoration: none;
     color: #2f80ed;
 }
 
-.header__painting{
+.header__painting {
     height: 608px;
     width: 756px;
     position: absolute;
@@ -89,7 +90,7 @@ footer, section{
     bottom: 0;
 }
 
-.header__painting-image{
+.header__painting-image {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -105,14 +106,13 @@ footer, section{
     right: 0;
 }
 
-.content{
+.content {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-
-.description{
+.description {
     width: 80%;
 }
 
@@ -128,8 +128,6 @@ footer, section{
     line-height: 1.2;
     font-weight: normal;
 }
-
-/* и элемента с модификатором вида ключ-значение */
 
 .two-columns__main-text {
     display: flex;
@@ -201,12 +199,11 @@ footer, section{
     font-weight: normal;
 }
 
-.text__bank {
-    display: block;
+.table__text-bank {
     margin-top: 20px;
 }
 
-.feynman{
+.feynman {
     margin-bottom: 0;
     width: 100%;
     height: 890px;
@@ -227,13 +224,13 @@ footer, section{
     margin-bottom: 70px;
 }
 
-.feynman__subtitle{
+.feynman__subtitle {
     line-height: 51px;
     font-size: 36px;
     font-weight: normal;
 }
 
-.feynman__link{
+.feynman__link {
     line-height: 51px;
     font-size: 36px;
     font-weight: normal;
@@ -275,7 +272,7 @@ footer, section{
     justify-content: center;
 }
 
-.footer__columns{
+.footer__columns {
     display: flex;
     width: 90%;
     min-height: 350px;
@@ -322,6 +319,7 @@ footer, section{
     display: flex;
 
 }
+
 .footer__image-link {
     margin-right: 10px;
 }
