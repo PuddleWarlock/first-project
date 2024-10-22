@@ -52,21 +52,18 @@ footer, section{
     max-height: 756px;
     position: relative;
     margin-bottom: 100px;
+    display: flex;
     /* выше установили ограничения для секции */
 }
 
 .header__title{
-    width: 730px;
-    height: 100%;
-    display: flex;
-    margin-left: 64px;
-}
-
-.header__title-text{
     align-self: center;
+    width: 730px;
+    margin-left: 64px;
     font-size: 102px;
     line-height: 96px;
     font-weight: 600;
+    z-index: 1;
 }
 
 .header__subtitle{
@@ -127,9 +124,6 @@ footer, section{
 
 .two-columns__brief {
     width: 175px;
-}
-
-.two-columns__brief-text{
     font-size: 18px;
     line-height: 1.2;
     font-weight: normal;
